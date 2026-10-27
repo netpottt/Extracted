@@ -1,0 +1,8 @@
+{
+  "name": "idea-board",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev --hostname 0.0.0.0", "build": "next build", "start": "next start --hostname 0.0.0.0", "typecheck": "tsc --noEmit" },
+  "dependencies": { "@supabase/supabase-js": "latest", "next": "latest", "react": "latest", "react-dom": "latest", "server-only": "latest" },
+  "devDependencies": { "@types/node": "latest", "@types/react": "latest", "@types/react-dom": "latest", "typescript": "latest" }
+}
